@@ -6,12 +6,35 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<title>{{ page.title }}</title>
 		<link rel="stylesheet" href="/assets/css/styles.css" />
-		{% feed_meta %} {% seo %} {% if jekyll.environment == "production" %}
-		<script src="my-analytics-script.js"></script>
-		{% endif %}
+		<link
+			href="https://fonts.googleapis.com/css?family=Raleway:600,900"
+			rel="stylesheet"
+		/>
+		{% feed_meta %} {% seo %}
 	</head>
 	<body>
 		{% include navigation.html %}
-		{{ content }}
+
+		<div class="containerMainContent">
+			{{ content }}
+		</div>
+
+		<!-- Liquid Code to include analytics if production -->
+		{% if jekyll.environment == "production" %}
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=UA-130258605-2"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+
+			gtag("config", "UA-130258605-2");
+		</script>
+		{% endif %}
 	</body>
 </html>

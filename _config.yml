@@ -4,6 +4,8 @@ collections:
 
 environment: production
 
+permalink: //:short_month/:year/:title:output_ext
+
 defaults:
   - scope:
       path: ""

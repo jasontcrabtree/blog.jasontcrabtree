@@ -1,27 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-03-13T16:36:53+00:00</updated><id>/feed.xml</id><entry><title type="html">Apples</title><link href="/2019/03/12/apples.html" rel="alternate" type="text/html" title="Apples" /><published>2019-03-12T00:00:00+00:00</published><updated>2019-03-12T00:00:00+00:00</updated><id>/2019/03/12/apples</id><content type="html" xml:base="/2019/03/12/apples.html">&lt;h1 id=&quot;apple-pie&quot;&gt;Apple Pie&lt;/h1&gt;
-
-&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-22T18:05:53+00:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Apples</title><link href="http://localhost:4000/Mar/2019/apples.html" rel="alternate" type="text/html" title="Apples" /><published>2019-03-12T00:00:00+00:00</published><updated>2019-03-12T00:00:00+00:00</updated><id>http://localhost:4000/Mar/2019/apples</id><content type="html" xml:base="http://localhost:4000/Mar/2019/apples.html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
 
 &lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
 the genus Malus. The tree originated in Central Asia, where its wild ancestor,
 Malus sieversii, is still found today. Apples have been grown for thousands of
 years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;</content><author><name>Ted</name></author><summary type="html">Apple Pie</summary></entry><entry><title type="html">Bananas</title><link href="/2019/03/12/bananas.html" rel="alternate" type="text/html" title="Bananas" /><published>2019-03-12T00:00:00+00:00</published><updated>2019-03-12T00:00:00+00:00</updated><id>/2019/03/12/bananas</id><content type="html" xml:base="/2019/03/12/bananas.html">&lt;h1 id=&quot;banana--toffee&quot;&gt;Banana &amp;amp; Toffee&lt;/h1&gt;
-
-&lt;p&gt;A banana is an edible fruit – botanically a berry – produced by several kinds
+colonists.&lt;/p&gt;</content><author><name>Ted</name></author><summary type="html">An apple is a sweet, edible fruit produced by an apple tree.</summary></entry><entry><title type="html">Bananas</title><link href="http://localhost:4000/Mar/2019/bananas.html" rel="alternate" type="text/html" title="Bananas" /><published>2019-03-12T00:00:00+00:00</published><updated>2019-03-12T00:00:00+00:00</updated><id>http://localhost:4000/Mar/2019/bananas</id><content type="html" xml:base="http://localhost:4000/Mar/2019/bananas.html">&lt;p&gt;A banana is an edible fruit – botanically a berry – produced by several kinds
 of large herbaceous flowering plants in the genus Musa.&lt;/p&gt;
 
 &lt;p&gt;In some countries, bananas used for cooking may be called “plantains”,
 distinguishing them from dessert bananas. The fruit is variable in size, color,
 and firmness, but is usually elongated and curved, with soft flesh rich in
 starch covered with a rind, which may be green, yellow, red, purple, or brown
-when ripe.&lt;/p&gt;</content><author><name>ted</name></author><summary type="html">Banana &amp;amp; Toffee</summary></entry><entry><title type="html">Kiwifruit</title><link href="/2019/03/12/kiwifruit.html" rel="alternate" type="text/html" title="Kiwifruit" /><published>2019-03-12T00:00:00+00:00</published><updated>2019-03-12T00:00:00+00:00</updated><id>/2019/03/12/kiwifruit</id><content type="html" xml:base="/2019/03/12/kiwifruit.html">&lt;h1 id=&quot;kiwifruit-delight&quot;&gt;Kiwifruit Delight&lt;/h1&gt;
+when ripe.&lt;/p&gt;</content><author><name>ted</name></author><summary type="html">A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.</summary></entry><entry><title type="html">Kia Ora, I&amp;#8217;m Jason Crabtree</title><link href="http://localhost:4000/Mar/2019/kia-ora,-i'm-jason-crabtree.html" rel="alternate" type="text/html" title="Kia Ora, I'm Jason Crabtree" /><published>2019-03-12T00:00:00+00:00</published><updated>2019-03-12T00:00:00+00:00</updated><id>http://localhost:4000/Mar/2019/kia-ora,-i'm-jason-crabtree</id><content type="html" xml:base="http://localhost:4000/Mar/2019/kia-ora,-i'm-jason-crabtree.html">&lt;p&gt;I solve problems for people and businesses. I do that thoughtfully,
+creatively and pragmatically. Recently I’ve spent my days working in
+Customer Experience Design focused on cross-channel service design. At
+night, I’m learning to digital product design.&lt;/p&gt;
+
+&lt;p&gt;After five years working for New Zealand’s largest insurance company,
+I’ve changed industries and continents. On January 29, 2019 I packed
+my life into a suitcase and moved to Dublin, Ireland.&lt;/p&gt;
+
+&lt;p&gt;I’m now on the hunt for new opportunities. My focus is working with a
+business-business software (SaaS) company solving meaningful problems
+for people and businesses. I believe helping people at work is a huge
+leverage point for helping to improve people’s lives.&lt;/p&gt;
+
+&lt;p&gt;I’m a team player, empathetic and good under pressure. I get stuff
+done and I’m a quick learner with knowledge in lots of different
+areas. I’d love to learn more about how we can work together — and how
+I can help you and your business.&lt;/p&gt;</content><author><name>Jason</name></author><summary type="html">I solve problems for people and businesses. I do that thoughtfully, creatively and pragmatically. Recently I’ve spent my days working in Customer Experience Design focused on cross-channel service design. At night, I’m learning to digital product design.</summary></entry><entry><title type="html">Loving Kiwifruit</title><link href="http://localhost:4000/Mar/2019/loving-kiwifruit.html" rel="alternate" type="text/html" title="Loving Kiwifruit" /><published>2019-03-12T00:00:00+00:00</published><updated>2019-03-12T00:00:00+00:00</updated><id>http://localhost:4000/Mar/2019/loving-kiwifruit</id><content type="html" xml:base="http://localhost:4000/Mar/2019/loving-kiwifruit.html">&lt;p&gt;Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
+berry of several species of woody vines in the genus Actinidia.&lt;/p&gt;
+
+&lt;p&gt;The most common cultivar group of kiwifruit is oval, about the size of a large hen’s egg (5–8 cm (2.0–3.1 in) in length and 4.5–5.5 cm (1.8–2.2 in) in diameter).&lt;/p&gt;
+
+&lt;p class=&quot;extraBlockQuote&quot;&gt;It has a fibrous, dull greenish-brown skin and bright green or golden flesh with rows of tiny, black, edible seeds. The fruit has a soft texture, with a sweet and unique flavor.&lt;/p&gt;
+
+&lt;p class=&quot;fake-h2&quot;&gt;This will be styled as a p tag with the css class fake-2&lt;/p&gt;
 
 &lt;p&gt;Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
 berry of several species of woody vines in the genus Actinidia.&lt;/p&gt;
 
-&lt;p&gt;The most common cultivar group of kiwifruit is oval, about the size of a large
-hen’s egg (5–8 cm (2.0–3.1 in) in length and 4.5–5.5 cm (1.8–2.2 in) in
-diameter). It has a fibrous, dull greenish-brown skin and bright green or
-golden flesh with rows of tiny, black, edible seeds. The fruit has a soft
-texture, with a sweet and unique flavor.&lt;/p&gt;</content><author><name>jill</name></author><summary type="html">Kiwifruit Delight</summary></entry></feed>
+&lt;p&gt;The most common cultivar group of kiwifruit is oval, about the size of a large hen’s egg (5–8 cm (2.0–3.1 in) in length and 4.5–5.5 cm (1.8–2.2 in) in diameter).&lt;/p&gt;
+
+&lt;p&gt;Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
+berry of several species of woody vines in the genus Actinidia.&lt;/p&gt;
+
+&lt;p&gt;The most common cultivar group of kiwifruit is oval, about the size of a large hen’s egg (5–8 cm (2.0–3.1 in) in length and 4.5–5.5 cm (1.8–2.2 in) in diameter).&lt;/p&gt;</content><author><name>jill</name></author><summary type="html">Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible berry of several species of woody vines in the genus Actinidia.</summary></entry></feed>
