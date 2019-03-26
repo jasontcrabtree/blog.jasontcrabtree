@@ -1,17 +1,19 @@
-collections:
-  authors:
-    output: true
+# collections:
+#   authors:
+#     output: true
 
 environment: production
 
-# permalink: //:short_month/:year/:title:output_ext
+permalink: //:short_month/:year/:title:output_ext
+
+exclude: [archive]
 
 defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
+  # - scope:
+  #     path: ""
+  #     type: "authors"
+  #   values:
+  #     layout: "author"
   - scope:
       path: ""
       type: "posts"
