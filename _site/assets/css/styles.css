@@ -210,9 +210,9 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: inherit; }
+  color: #3c3c9f; }
 
-footer a:active {
+footer a:hover {
   color: #b55284;
   font-weight: 600; }
 
