@@ -208,13 +208,14 @@ footer {
   border-spacing: 16px;
   border-top: 2px solid #e7e7e7; }
 
-footer a {
+footer a:link,
+footer a:visited,
+footer a:active {
   text-decoration: none;
-  color: #3c3c9f !important; }
+  color: #3c3c9f; }
 
 footer a:hover {
-  color: #b55284;
-  font-weight: 600; }
+  color: #b55284; }
 
 /* ARCHIVE
 MATERIAL */
