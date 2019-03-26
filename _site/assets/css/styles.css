@@ -208,6 +208,14 @@ footer {
   border-spacing: 16px;
   border-top: 2px solid #e7e7e7; }
 
+footer a {
+  text-decoration: none;
+  color: inherit; }
+
+footer a:active {
+  color: #b55284;
+  font-weight: 600; }
+
 /* ARCHIVE
 MATERIAL */
 .breadCrumbAlignment {
