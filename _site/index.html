@@ -11,6 +11,7 @@
 			rel="stylesheet"
 		/>
 		<link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+		<link rel="shortcut icon" type="image/png" href="favicon.png" />
 		<link type="application/atom+xml" rel="alternate" href="/feed.xml" /> <!-- Begin Jekyll SEO tag v2.5.0 -->
 <title>Jason’s Blog</title>
 <meta name="generator" content="Jekyll v3.8.5" />
@@ -24,51 +25,60 @@
 	<body>
 		<div class="navigationContainer">
 	<nav class="mainNavigation">
-		<a class="navigationHomeLink mainNavLHS" href="https://jasontcrabtree.com">
-			<span class="homeStyle">
-				[JC]
+		<a
+			class="navigationHomeLink mainNavLHS initialsText"
+			href="https://jasontcrabtree.com"
+		>
+			<span class="homeStyle initialsText">
+				JC
 			</span>
 		</a>
-		<li class="navigationLinks navList resume1">
+		<a class="navigationHomeLink mainNavLHS" href="https://jasontcrabtree.com">
+			<span class="homeStyle">
+				<img
+					src="/assets/Wordmark.svg"
+					alt="Twitter"
+					class="socialIcons fullWordmark"
+				/>
+			</span>
+		</a>
+		<li class="navigationLinks navList">
 			<a href="https://jasontcrabtree.com/projects">
 				Projects
 			</a>
 		</li>
-		<li class="navigationLinks navList resume1">
+		<li class="navigationLinks navList">
 			<a href="https://blog.jasontcrabtree.com/">
 				Blog
 			</a>
 		</li>
-		<li class="navigationLinks navList resume1">
+		<li class="navigationLinks navList">
 			<a href="https://jasontcrabtree.com/resume.pdf">
 				CV
 			</a>
 		</li>
-		<li class="navigationLinks navList twitter3">
+		<li class="navigationLinks navList ">
 			<a href="https://twitter.com/jasontcrabtree" class="socialLinks">
 				<img src="/assets/TwitterLogo.svg" alt="Twitter" class="socialIcons" />
 			</a>
 		</li>
-		<li class="navigationLinks navList github4 ">
-			<a href="https://github.com/jasontcrabtree" class="socialLinks">
-				<img src="/assets/GitHubLogo.svg" alt="GitHub" class="socialIcons" />
+		<li class="navigationLinks navList ">
+			<a href="https://blog.jasontcrabtree.com/feed.xml" class="socialLinks">
+				<img src="/assets/RSS.svg" alt="RSS" class="socialIcons" />
 			</a>
 		</li>
-		<li class="navigationLinks navList dribble5 mainNavRHS">
+		<li class="navigationLinks navList mainNavRHS">
 			<a href="https://dribbble.com/jasontcrabtree" class="socialLinks">
 				<img src="/assets/DribbleLogo.svg" alt="Dribbble" class="socialIcons" />
 			</a>
 		</li>
+		<li class="navigationLinks navList github4 gitHubIcon">
+			<a href="https://github.com/jasontcrabtree" class="socialLinks">
+				<img src="/assets/GitHubLogo.svg" alt="GitHub" class="socialIcons" />
+			</a>
+		</li>
 	</nav>
 </div>
-
-<!-- <nav>
-        
-          <a href="/" class="current">Home</a>
-        
-          <a href="/about" >About</a>
-        
-</nav> -->
 
 
 		<div class="containerMainContent">
@@ -126,21 +136,55 @@ of large herbaceous flowering plants in the genus Musa.</p>
 		</li>
 		
 	</ul>
-
-	<footer
-		>Turning coffee & overthinking into blog posts since &copy2019.
-		<br />
-		Thanks for reading! 💙<a href="http://twitter.com/jasontcrabtree"
-			>@jasontcrabtree</a
-		>
-	</footer>
 </div>
 
 		</div>
 
+		<footer class="footerComponent">
+	<div>
+		<ul class="footerSocialLinks">
+			<li class="navigationLinks navList">
+				<a href="https://twitter.com/jasontcrabtree" class="socialLinks">
+					<img
+						src="/assets/TwitterLogo.svg"
+						alt="Twitter"
+						class="socialIcons"
+					/>
+				</a>
+			</li>
+			<li class="navigationLinks navList ">
+				<a href="https://blog.jasontcrabtree.com/feed.xml" class="socialLinks">
+					<img src="/assets/RSS.svg" alt="RSS" class="socialIcons" />
+				</a>
+			</li>
+			<li class="navigationLinks navList mainNavRHS">
+				<a href="https://dribbble.com/jasontcrabtree" class="socialLinks">
+					<img
+						src="/assets/DribbleLogo.svg"
+						alt="Dribbble"
+						class="socialIcons"
+					/>
+				</a>
+			</li>
+			<li class="navigationLinks navList github4 gitHubIcon">
+				<a href="https://github.com/jasontcrabtree" class="socialLinks">
+					<img src="/assets/GitHubLogo.svg" alt="GitHub" class="socialIcons" />
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="footerText">
+		Turning coffee & overthinking into blog posts since &copy2019.
+		<br />
+		Thanks for reading! 💙<a href="http://twitter.com/jasontcrabtree"
+			>@jasontcrabtree</a
+		>
+	</div>
+</footer>
+
+
 		<!-- Liquid Code to include analytics if production -->
 		
-		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script
 			async
 			src="https://www.googletagmanager.com/gtag/js?id=UA-130258605-2"

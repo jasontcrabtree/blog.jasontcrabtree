@@ -10,7 +10,10 @@ span {
 
 :root {
   font-size: 16px;
-  --body-text: #252525; }
+  --body-text: #252525;
+  --primary-blue: #3c3c9f;
+  --navigation-offWhite: #fcfcfc;
+  --primary-pink: #b55284; }
 
 /* Media Queries */
 /* Mobile phone */
@@ -26,6 +29,12 @@ span {
     margin-left: 4px;
     margin-right: 4px;
     height: 20px !important; }
+
+  .fullWordmark {
+    display: none; }
+
+  nav .gitHubIcon {
+    display: none; }
 
   .containerMainContent {
     grid-gap: 8px;
@@ -50,6 +59,9 @@ span {
   body {
     background-color: #f6f6f6; }
 
+  .initialsText {
+    display: none !important; }
+
   .containerMainContent {
     display: grid;
     grid-gap: 16px;
@@ -72,6 +84,9 @@ span {
 @media screen and (min-width: 1201px) {
   .navigationHomeLink {
     width: 60%; }
+
+  .initialsText {
+    display: none !important; }
 
   .mainNavLHS {
     margin-left: 24px; }
@@ -112,6 +127,7 @@ h1 {
   margin-block-start: 0; }
 
 p {
+  color: var(--body-text);
   font-size: 1.2rem;
   line-height: 180%; }
 
@@ -120,7 +136,7 @@ p {
 
 .activeBlogPost {
   font-weight: 700;
-  border-bottom: 2px #252525 solid; }
+  border-bottom: 2px var(--body-text) solid; }
 
 .authorSpan {
   font-size: 1.15rem;
@@ -141,8 +157,9 @@ Nav: Nav Bar, Home Icon, Linkbacks, Social, Breadcrumbs */
 /* unvisited link */
 a:link,
 a:visited,
-a:active {
-  color: #252525;
+a:active,
+.initialsText {
+  color: var(--body-text);
   text-decoration: none; }
 
 .blogPosts {
@@ -173,7 +190,8 @@ nav li a {
 .mainNavRHS {
   margin-right: 12px; }
 
-.navList {
+.navList,
+.initialsText {
   list-style: none;
   display: inline; }
 
@@ -192,30 +210,42 @@ nav li a {
   height: 24px;
   border-radius: 50%; }
 
+.fullWordmark {
+  border-radius: 0 !important; }
+
 /* Main Content */
 /*  Footer */
-.footerTagline {
-  font-size: 1rem;
-  color: #595959; }
-
 footer {
   grid-column: 3 / 6;
   margin-top: 4rem;
   margin-bottom: 4rem;
   text-align: center;
-  color: #3c3c9f;
+  font-size: 0.9rem;
+  line-height: 140%;
+  color: var(--primary-blue);
   padding-top: 16px;
   border-spacing: 16px;
   border-top: 2px solid #e7e7e7; }
+
+.footerComponent {
+  display: grid; }
+
+.footerSocialLinks {
+  display: flex;
+  justify-content: space-evenly;
+  width: calc(35% + 64px);
+  margin: auto;
+  padding: 0 8px;
+  padding-bottom: 16px; }
 
 footer a:link,
 footer a:visited,
 footer a:active {
   text-decoration: none;
-  color: #3c3c9f; }
+  color: var(--primary-blue); }
 
 footer a:hover {
-  color: #b55284; }
+  color: var(--primary-pink); }
 
 /* ARCHIVE
 MATERIAL */
