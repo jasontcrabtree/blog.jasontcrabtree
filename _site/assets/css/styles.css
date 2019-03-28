@@ -11,9 +11,14 @@ span {
 :root {
   font-size: 16px;
   --body-text: #252525;
+  --primary-orange: #ff5f33;
   --primary-blue: #3c3c9f;
   --navigation-offWhite: #fcfcfc;
-  --primary-pink: #b55284; }
+  --primary-pink: #b55284;
+  --low-emphasis-grey: rgba(32, 68, 88); }
+
+html {
+  background-color: #fcfcfc; }
 
 /* Media Queries */
 /* Mobile phone */
@@ -21,9 +26,9 @@ span {
   body {
     background-color: #fcfcfc; }
 
-  nav,
-  nav li a {
-    font-size: 1rem !important; }
+  .postListItem {
+    padding-left: 0;
+    margin-left: 19px; }
 
   .socialIcons {
     margin-left: 4px;
@@ -41,7 +46,7 @@ span {
     margin-left: 16px;
     margin-right: 16px;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(7, 64px); }
+    grid-template-rows: repeat(auto, 64px); }
 
   .mainArticleLayout {
     padding-top: 64px;
@@ -78,8 +83,9 @@ span {
   h1 {
     font-size: 3rem; }
 
-  p {
-    font-size: 1.15rem; } }
+  nav,
+  nav li a {
+    font-size: 1.1rem; } }
 /* Screens bigger than 1201px */
 @media screen and (min-width: 1201px) {
   .navigationHomeLink {
@@ -110,8 +116,9 @@ span {
   h1 {
     font-size: 3rem; }
 
-  p {
-    font-size: 1.15rem; } }
+  nav,
+  nav li a {
+    font-size: 1.1rem; } }
 /* Typography */
 html {
   font-family: "Inter", sans-serif; }
@@ -120,31 +127,48 @@ html {
   html {
     font-family: "Inter var", sans-serif; } }
 h1 {
+  padding-top: 2rem;
   padding-left: 0;
   margin-left: 0;
   font-family: "Raleway", sans-serif;
   font-weight: 900;
   margin-block-start: 0; }
 
-p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  opacity: 0.9;
+  color: var(--body-text); }
+
+nav li a {
+  font-size: 1rem; }
+
+p,
+li,
+ul,
+span,
+strong {
   color: var(--body-text);
-  font-size: 1.2rem;
-  line-height: 180%; }
+  font-size: 1.15rem;
+  line-height: 170%; }
+
+.postPublishDate {
+  font-size: 1rem;
+  color: var(--low-emphasis-grey);
+  margin: -8px 0 -12px 0;
+  padding: 0; }
 
 .homeStyle {
+  color: var(--primary-blue);
   font-weight: 700; }
-
-.activeBlogPost {
-  font-weight: 700;
-  border-bottom: 2px var(--body-text) solid; }
-
-.authorSpan {
-  font-size: 1.15rem;
-  color: #595959; }
 
 .extraBlockQuote {
   display: grid;
-  color: #204458;
+  color: var(--low-emphasis-grey);
   font-size: 1.4rem;
   background-color: #fbccf1;
   padding: 8px 54px;
@@ -154,29 +178,38 @@ p {
 
 /* EVERYTHING TO DO WITH NAVIGATION:
 Nav: Nav Bar, Home Icon, Linkbacks, Social, Breadcrumbs */
-/* unvisited link */
 a:link,
 a:visited,
 a:active,
 .initialsText {
-  color: var(--body-text);
+  color: var(--primary-blue);
   text-decoration: none; }
 
-.blogPosts {
-  margin-top: 64px;
-  list-style: none; }
+/* mouse over Navigation link */
+a:hover {
+  color: var(--primary-orange); }
 
-nav li a {
-  font-size: 1.2rem; }
+/* selected Navigation link */
+a.active-link {
+  color: var(--primary-blue);
+  margin-bottom: -2px;
+  border-bottom: #ff5f33 4px solid; }
+
+.blogPosts {
+  margin-top: 56px;
+  list-style: none;
+  background-color: #fff;
+  padding: 8px 16px 16px 16px;
+  border: 1px solid #e3eef1;
+  border-top: #32ccf1 solid 8px;
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.25); }
 
 .navigationContainer {
-  display: grid;
-  grid-template-columns: 1fr;
-  overflow: hidden;
   position: sticky;
   top: 0;
   padding: 1.5rem 0 1.5rem 0;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.97);
+  z-index: 1;
   box-shadow: 0px 12px 24px rgba(204, 204, 204, 0.5); }
 
 .mainNavigation {
@@ -213,29 +246,25 @@ nav li a {
 .fullWordmark {
   border-radius: 0 !important; }
 
-/* Main Content */
 /*  Footer */
 footer {
   grid-column: 3 / 6;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin: 4rem 0 5rem 0;
   text-align: center;
   font-size: 0.9rem;
   line-height: 140%;
-  color: var(--primary-blue);
-  padding-top: 16px;
-  border-spacing: 16px;
-  border-top: 2px solid #e7e7e7; }
+  color: var(--primary-blue); }
 
 .footerComponent {
   display: grid; }
 
 .footerSocialLinks {
+  border-top: 2px solid #e7e7e7;
   display: flex;
   justify-content: space-evenly;
-  width: calc(35% + 64px);
+  width: calc(55% + 64px);
   margin: auto;
-  padding: 0 8px;
+  padding: 16px 8px;
   padding-bottom: 16px; }
 
 footer a:link,

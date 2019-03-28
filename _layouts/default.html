@@ -12,14 +12,23 @@
 		/>
 		<link rel="shortcut icon" type="image/ico" href="favicon.ico" />
 		<link rel="shortcut icon" type="image/png" href="favicon.png" />
-		{% feed_meta %} {% seo %}
+		<meta name="Jason Crabtree" content="Welcome to the blogzone" />
+		{% feed_meta %}
+		<link
+			rel="alternate"
+			href="/_site/feed.xml"
+			type="application/rss+xml"
+			title="RSS"
+		/>
+		<script src="/assets//script.js"></script>
+		{% seo %}
 	</head>
 	<body>
 		{% include navigation.html %}
 
-		<div class="containerMainContent">
+		<article class="containerMainContent">
 			{{ content }}
-		</div>
+		</article>
 
 		{% include footer.html %}
 
@@ -38,6 +47,7 @@
 
 			gtag("config", "UA-130258605-2");
 		</script>
+
 		{% endif %}
 	</body>
 </html>

@@ -5,15 +5,15 @@ title: Jason's Blog
 
 <div class="mainArticleLayout">
 	<h1>Latest Posts</h1>
-
 	<ul>
 		{% for post in site.posts %}
-		<li class="blogPosts">
-			<h2>
-				<a href="{{ post.url }}" class="blogPostListLinks">{{ post.title }}</a>
-			</h2>
-			<p>{{ post.excerpt }}</p>
-		</li>
+		<a href="{{ post.url }}" class="blogPostListLinks">
+			<li class="blogPosts">
+				<h2> {{ post.title }} </h2
+				><p class="postPublishDate">{{ post.date | date_to_long_string }}</p>
+				<p>{{ post.excerpt }}</p>
+			</li>
+		</a>
 		{% endfor %}
 	</ul>
 </div>

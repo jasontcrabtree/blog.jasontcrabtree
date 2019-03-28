@@ -6,6 +6,8 @@ excerpt: Things for Jason and Zoe to do on Saturday!
 
 ### To-do-list:
 
+{:.postListItem}
+
 - St Stephen's Green
 - Burgers
 - Groceries
