@@ -3,7 +3,12 @@ layout: post
 author: Jason
 Date: 27 Mar 2019
 excerpt: Welcome to the blogzone 👉 come on in...
+image: /assets/Beers-and-Bike2.png/
 ---
+
+<img class="heroImage" src="/assets/Beers-and-Bike2.png">
+
+<!-- ![Kia Ora, Please Come in. Welcome to my first ever blog post!](/assets/Beers-and-Bike2.png#heroImage) -->
 
 I'm so excited to welcome you to the first blog post published on my own domain.
 

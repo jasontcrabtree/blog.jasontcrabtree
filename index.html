@@ -10,7 +10,9 @@ title: Jason's Blog
 		<a href="{{ post.url }}" class="blogPostListLinks">
 			<li class="blogPosts">
 				<h2> {{ post.title }} </h2
-				><p class="postPublishDate">{{ post.date | date_to_long_string }}</p>
+				><p class="postPublishDate"
+					>Published {{ post.date | date_to_long_string }}</p
+				>
 				<p>{{ post.excerpt }}</p>
 			</li>
 		</a>

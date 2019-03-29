@@ -18,20 +18,18 @@ span {
 	--navigation-offWhite: #fcfcfc;
 	--primary-pink: #b55284;
 	--low-emphasis-grey: rgba(32, 68, 88);
+	--steel-grey: #f7fdff;
+	--light-blue-grey: #e3eef1;
 }
 
 html {
-	background-color: #fcfcfc;
+	background-color: var(--navigation-offWhite);
 }
 
 /* Media Queries */
 
 /* Mobile phone */
 @media screen and (max-width: 500px) {
-	body {
-		background-color: #fcfcfc;
-	}
-
 	.postListItem {
 		padding-left: 0;
 		margin-left: 19px;
@@ -79,10 +77,6 @@ html {
 
 /* Mobile phone & upto 1200px (med size screens) */
 @media screen and (min-width: 501px) and (max-width: 1200px) {
-	body {
-		background-color: #f6f6f6;
-	}
-
 	.initialsText {
 		display: none !important;
 	}
@@ -170,7 +164,7 @@ html {
 }
 
 h1 {
-	padding-top: 2rem;
+	padding-top: 1rem;
 	padding-left: 0;
 	margin-left: 0;
 	font-family: "Raleway", sans-serif;
@@ -187,6 +181,10 @@ h6,
 a {
 	opacity: 0.9;
 	color: var(--body-text);
+}
+
+h2 {
+	padding-top: 0;
 }
 
 nav li a {
@@ -255,17 +253,25 @@ a.active-link {
 	color: var(--primary-blue);
 	margin-bottom: -2px;
 	border-bottom: #ff5f33 4px solid;
-	// padding-bottom: 8px;
 }
 
 .blogPosts {
-	margin-top: 56px;
+	margin-top: 48px;
 	list-style: none;
-	background-color: #fff;
+	background-color: var(--steel-grey);
 	padding: 8px 16px 16px 16px;
-	border: 1px solid #e3eef1;
-	// border-top: var(--primary-blue) solid 8px;
-	border-top: rgba(50, 204, 241, 1) solid 8px;
+	border: 1px solid var(--light-blue-grey);
+	border-top: var(--low-emphasis-grey) solid 8px;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.blogPosts:hover,
+.blogPosts:active,
+.blogPosts:visited {
+	background-color: #fcfcfc;
+	transform: scale(1.01);
+	border: 1px solid var(--light-blue-grey);
+	border-top: var(--primary-orange) solid 8px;
 	box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.25);
 }
 
@@ -274,12 +280,11 @@ a.active-link {
 	top: 0;
 
 	padding: 1.5rem 0 1.5rem 0;
-
 	background-color: rgba(255, 255, 255, 0.97);
 
 	z-index: 1;
 
-	box-shadow: 0px 12px 24px rgba(204, 204, 204, 0.5);
+	box-shadow: 0px 4px 4px rgba(204, 204, 204, 0.9);
 }
 
 .mainNavigation {
@@ -369,4 +374,14 @@ MATERIAL */
 	justify-content: center;
 	margin: 0;
 	padding: 0;
+}
+
+.heroImage {
+	position: relative;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+
+	width: 100vw;
 }
