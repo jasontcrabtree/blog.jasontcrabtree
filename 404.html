@@ -1,0 +1,30 @@
+---
+layout: default
+permalink: /404.html
+title: 40-Broken
+---
+
+<div class="mainArticleLayout">
+
+        {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+
+        <a href="/"
+            ><span class="breadCrumbNavigation">Home</a
+                > </span>/ {{ page.title }}
+
+	<h1>Shit! Something's broken.</h1>
+	<p>
+		Uhh, the link you clicked on didn't work. I better fix that.
+	</p>
+	<p>
+		In the mean time, let's try give you some sweet content that actually works.
+	</p>
+
+	<a href="/" class="brokenPageHomeLink">
+		Return Home
+	</a>
+<!--
+    <p>Or if you want to try another link, here's some recent posts!</p>
+
+    {{ site.url.first }} -->
+</div>

@@ -37,6 +37,7 @@ social:
     - https://www.linkedin.com
 
 exclude: [archive]
+include: [_redirects]
 
 defaults:
   # - scope:

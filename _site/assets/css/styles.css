@@ -3,8 +3,7 @@
 body,
 li,
 header,
-ul,
-span {
+ul {
   margin: 0;
   padding: 0; }
 
@@ -54,10 +53,11 @@ html {
     grid-row-start: 2; }
 
   h1 {
+    font-size: 2.4rem;
     padding-left: 0;
+    padding-bottom: 1rem;
     margin: 0;
-    margin-left: 0;
-    font-size: 2.75rem; } }
+    margin-left: 0; } }
 /* Mobile phone & upto 1200px (med size screens) */
 @media screen and (min-width: 501px) and (max-width: 1200px) {
   .initialsText {
@@ -76,12 +76,12 @@ html {
     column-span: all;
     grid-row-start: 2; }
 
-  h1 {
-    font-size: 3rem; }
-
   nav,
   nav li a {
-    font-size: 1.1rem; } }
+    font-size: 1.1rem; }
+
+  h1 {
+    font-size: 3.2rem; } }
 /* Screens bigger than 1201px */
 @media screen and (min-width: 1201px) {
   .navigationHomeLink {
@@ -109,12 +109,12 @@ html {
     grid-column: 3 / 6;
     grid-row-start: 2; }
 
-  h1 {
-    font-size: 3rem; }
-
   nav,
   nav li a {
-    font-size: 1.1rem; } }
+    font-size: 1.1rem; }
+
+  h1 {
+    font-size: 3.2rem; } }
 /* Typography */
 html {
   font-family: "Inter", sans-serif; }
@@ -123,7 +123,7 @@ html {
   html {
     font-family: "Inter var", sans-serif; } }
 h1 {
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-left: 0;
   margin-left: 0;
   font-family: "Raleway", sans-serif;
@@ -149,7 +149,6 @@ nav li a {
 p,
 li,
 ul,
-span,
 strong {
   color: var(--body-text);
   font-size: 1.15rem;
@@ -197,10 +196,8 @@ a.active-link {
 .blogPosts {
   margin-top: 48px;
   list-style: none;
-  background-color: var(--steel-grey);
   padding: 8px 16px 16px 16px;
-  border: 1px solid var(--light-blue-grey);
-  border-top: var(--low-emphasis-grey) solid 8px;
+  border-top: var(--primary-blue) solid 4px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); }
 
 .blogPosts:hover,
@@ -300,3 +297,21 @@ MATERIAL */
   margin-left: -50vw;
   margin-right: -50vw;
   width: 100vw; }
+
+.PageNavigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  margin: 3rem 0 0 0; }
+
+.breadCrumbNavigation {
+  font-size: inherit;
+  color: inherit;
+  font-weight: bold; }
+
+.brokenPageHomeLink {
+  font-size: 1.1rem;
+  font-weight: bold;
+  display: grid;
+  justify-content: center; }

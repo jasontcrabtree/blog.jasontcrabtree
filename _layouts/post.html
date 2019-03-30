@@ -3,6 +3,12 @@ layout: default
 ---
 
 <div class="mainArticleLayout">
+	{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+
+	<a href="/"
+		><span class="breadCrumbNavigation">Home</a
+			> </span>/ {{ page.title }}
+
 	<h1>{{ page.title }}</h1>
 
 	<article>
@@ -15,4 +21,18 @@ layout: default
 	</article>
 
 	{{ content }}
+
+	<div class="PageNavigation">
+		{% if page.previous.url %}
+		<a class="prev" href="{{ page.previous.url }}"
+			>&laquo; <span class="breadCrumbNavigation">Previous Posts: </span
+			>{{ page.previous.title }}</a
+		>
+		{% endif %} {% if page.next.url %}
+		<a class="next" href="{{ page.next.url }}">
+			<span class="breadCrumbNavigation">Latest Posts:</span>
+			{{ page.next.title }} &raquo;</a
+		>
+		{% endif %}
+	</div>
 </div>
