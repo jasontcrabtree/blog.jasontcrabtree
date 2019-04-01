@@ -11,7 +11,7 @@ plugins:
 
 name: Jason Crabtree's Blog
 title: Jason Crabtree's Blog
-description: A personal blog with my thoughts on design, technology, people & society. Customer Operations Operator, Hobbyist Designer, Coffee drinker & overthinker.
+description: A personal blog about design, technology, people & society. Customer Operations Operator, Hobbyist Designer, Coffee drinker & overthinker.
 author:
   twitter: jasontcrabtree
 
@@ -21,12 +21,10 @@ twitter:
 
 logo: /assets/favicon.png
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      image: /assets/JC-Blog-Image.png
-      author: jasontcrabtree
+image:
+  path: https://blog.jasontcrabtree.com/assets/JC-Blog-Image.png
+  height: 100
+  width: 100
 
 social:
   name: Jason Crabtree
