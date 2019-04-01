@@ -19,9 +19,8 @@ twitter:
   username: jasontcrabtree
   card: summary
 
-logo: /assets/favicon.png
-favicon: /assets/favicon.ico
-favicon: /assets/favicon.png
+logo: https://blog.jasontcrabtree.com/assets/favicon.png
+favicon: https://blog.jasontcrabtree.com/assets/favicon.png
 
 image:
   path: https://blog.jasontcrabtree.com/assets/JC-Blog-Image.png
