@@ -140,6 +140,9 @@ a {
   opacity: 0.9;
   color: var(--body-text); }
 
+h1 {
+  color: var(--primary-blue); }
+
 h2 {
   padding-top: 0; }
 

@@ -1,7 +1,8 @@
 ---
 layout: post
-author: Jason and Zoe
+author: Jason
 excerpt: Things for Jason and Zoe to do on Saturday!
+published: false
 ---
 
 ### To-do-list:

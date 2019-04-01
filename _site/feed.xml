@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-03-30T17:10:19+00:00</updated><id>/feed.xml</id><title type="html">Jason Crabtree’s Blog</title><subtitle>A personal blog where I share my thoughts on design, technology, people and society. Customer Operations Operator, Hobbyist Designer, Coffee drinker and overthinker.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;jasontcrabtree&quot;}</name></author><entry><title type="html">Hello World</title><link href="/Mar/2019/hello-world.html" rel="alternate" type="text/html" title="Hello World" /><published>2019-03-27T00:00:00+00:00</published><updated>2019-03-27T00:00:00+00:00</updated><id>/Mar/2019/hello-world</id><content type="html" xml:base="/Mar/2019/hello-world.html">&lt;p&gt;&lt;img class=&quot;heroImage&quot; src=&quot;/assets/Beers-and-Bike2.png&quot; /&gt;&lt;/p&gt;
-
-&lt;!-- ![Kia Ora, Please Come in. Welcome to my first ever blog post!](/assets/Beers-and-Bike2.png#heroImage) --&gt;
-
-&lt;p&gt;I’m so excited to welcome you to the first blog post published on my own domain.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-04-01T14:48:57+01:00</updated><id>/feed.xml</id><title type="html">Jason Crabtree’s Blog</title><subtitle>A personal blog where I share my thoughts on design, technology, people and society. Customer Operations Operator, Hobbyist Designer, Coffee drinker and overthinker.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;jasontcrabtree&quot;}</name></author><entry><title type="html">Hello World</title><link href="/Mar/2019/hello-world.html" rel="alternate" type="text/html" title="Hello World" /><published>2019-03-27T00:00:00+00:00</published><updated>2019-03-27T00:00:00+00:00</updated><id>/Mar/2019/hello-world</id><content type="html" xml:base="/Mar/2019/hello-world.html">&lt;p&gt;I’m so excited to welcome you to the first blog post published on my own domain.&lt;/p&gt;
 
 &lt;p&gt;Please come in, enjoy your stay — have a look around.&lt;/p&gt;
 
@@ -12,63 +8,8 @@
 
 &lt;p&gt;Future blog posts topics will include design, technology and long-form-thoughts on things I find interesting in humanties and society.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Warning: All future posts WILL be full of em dashes.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Warning: Future posts WILL be full of em dashes.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;If you’d like to come along for the ride, I’d love it if you subscribed to my RSS feed or followed me on Twitter.&lt;/p&gt;
 
-&lt;p&gt;Thanks for visiting!&lt;/p&gt;</content><author><name>Jason</name></author><summary type="html">Welcome to the blogzone 👉 come on in...</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/Beers-and-Bike2.png/" /></entry><entry><title type="html">Adventures In Dublin</title><link href="/Mar/2019/adventures-in-dublin.html" rel="alternate" type="text/html" title="Adventures In Dublin" /><published>2019-03-23T00:00:00+00:00</published><updated>2019-03-23T00:00:00+00:00</updated><id>/Mar/2019/adventures-in-dublin</id><content type="html" xml:base="/Mar/2019/adventures-in-dublin.html">&lt;h3 id=&quot;to-do-list&quot;&gt;To-do-list:&lt;/h3&gt;
-
-&lt;ul class=&quot;postListItem&quot;&gt;
-  &lt;li&gt;St Stephen’s Green&lt;/li&gt;
-  &lt;li&gt;Burgers&lt;/li&gt;
-  &lt;li&gt;Groceries&lt;/li&gt;
-  &lt;li&gt;Coffee&lt;/li&gt;
-  &lt;li&gt;People Power Festival&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Jason and Zoe</name></author><summary type="html">Things for Jason and Zoe to do on Saturday!</summary></entry><entry><title type="html">Apples</title><link href="/Mar/2019/apples.html" rel="alternate" type="text/html" title="Apples" /><published>2019-03-12T00:00:00+00:00</published><updated>2019-03-12T00:00:00+00:00</updated><id>/Mar/2019/apples</id><content type="html" xml:base="/Mar/2019/apples.html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;</content><author><name>Ted</name></author><summary type="html">An apple is a sweet, edible fruit produced by an apple tree.</summary></entry><entry><title type="html">Bananas</title><link href="/Mar/2019/bananas.html" rel="alternate" type="text/html" title="Bananas" /><published>2019-03-12T00:00:00+00:00</published><updated>2019-03-12T00:00:00+00:00</updated><id>/Mar/2019/bananas</id><content type="html" xml:base="/Mar/2019/bananas.html">&lt;p&gt;A banana is an edible fruit – botanically a berry – produced by several kinds
-of large herbaceous flowering plants in the genus Musa.&lt;/p&gt;
-
-&lt;p&gt;In some countries, bananas used for cooking may be called “plantains”,
-distinguishing them from dessert bananas. The fruit is variable in size, color,
-and firmness, but is usually elongated and curved, with soft flesh rich in
-starch covered with a rind, which may be green, yellow, red, purple, or brown
-when ripe.&lt;/p&gt;</content><author><name>ted</name></author><summary type="html">A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.</summary></entry><entry><title type="html">Kia Ora</title><link href="/Mar/2019/kia-ora.html" rel="alternate" type="text/html" title="Kia Ora" /><published>2019-03-12T00:00:00+00:00</published><updated>2019-03-12T00:00:00+00:00</updated><id>/Mar/2019/kia-ora</id><content type="html" xml:base="/Mar/2019/kia-ora.html">&lt;p&gt;I solve problems for people and businesses. I do that thoughtfully,
-creatively and pragmatically. Recently I’ve spent my days working in
-Customer Experience Design focused on cross-channel service design. At
-night, I’m learning to digital product design.&lt;/p&gt;
-
-&lt;p&gt;After five years working for New Zealand’s largest insurance company,
-I’ve changed industries and continents. On January 29, 2019 I packed
-my life into a suitcase and moved to Dublin, Ireland.&lt;/p&gt;
-
-&lt;p&gt;I’m now on the hunt for new opportunities. My focus is working with a
-business-business software (SaaS) company solving meaningful problems
-for people and businesses. I believe helping people at work is a huge
-leverage point for helping to improve people’s lives.&lt;/p&gt;
-
-&lt;p&gt;I’m a team player, empathetic and good under pressure. I get stuff
-done and I’m a quick learner with knowledge in lots of different
-areas. I’d love to learn more about how we can work together — and how
-I can help you and your business.&lt;/p&gt;</content><author><name>Jason</name></author><summary type="html">I solve problems for people and businesses. I do that thoughtfully, creatively and pragmatically. Recently I’ve spent my days working in Customer Experience Design focused on cross-channel service design. At night, I’m learning to digital product design.</summary></entry><entry><title type="html">Loving Kiwifruit</title><link href="/Mar/2019/loving-kiwifruit.html" rel="alternate" type="text/html" title="Loving Kiwifruit" /><published>2019-03-12T00:00:00+00:00</published><updated>2019-03-12T00:00:00+00:00</updated><id>/Mar/2019/loving-kiwifruit</id><content type="html" xml:base="/Mar/2019/loving-kiwifruit.html">&lt;p&gt;Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
-berry of several species of woody vines in the genus Actinidia.&lt;/p&gt;
-
-&lt;p&gt;The most common cultivar group of kiwifruit is oval, about the size of a large hen’s egg (5–8 cm (2.0–3.1 in) in length and 4.5–5.5 cm (1.8–2.2 in) in diameter).&lt;/p&gt;
-
-&lt;p class=&quot;extraBlockQuote&quot;&gt;It has a fibrous, dull greenish-brown skin and bright green or golden flesh with rows of tiny, black, edible seeds. The fruit has a soft texture, with a sweet and unique flavor.&lt;/p&gt;
-
-&lt;p class=&quot;fake-h2&quot;&gt;This will be styled as a p tag with the css class fake-2&lt;/p&gt;
-
-&lt;p&gt;Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
-berry of several species of woody vines in the genus Actinidia.&lt;/p&gt;
-
-&lt;p&gt;The most common cultivar group of kiwifruit is oval, about the size of a large hen’s egg (5–8 cm (2.0–3.1 in) in length and 4.5–5.5 cm (1.8–2.2 in) in diameter).&lt;/p&gt;
-
-&lt;p&gt;Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
-berry of several species of woody vines in the genus Actinidia.&lt;/p&gt;
-
-&lt;p&gt;The most common cultivar group of kiwifruit is oval, about the size of a large hen’s egg (5–8 cm (2.0–3.1 in) in length and 4.5–5.5 cm (1.8–2.2 in) in diameter).&lt;/p&gt;</content><author><name>jill</name></author><summary type="html">Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible berry of several species of woody vines in the genus Actinidia.</summary></entry></feed>
+&lt;p&gt;Thanks for visiting!&lt;/p&gt;</content><author><name>Jason</name></author><summary type="html">Welcome to the blogzone 👉 come on in...</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/Beers-and-Bike2.png/" /></entry></feed>
