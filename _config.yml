@@ -10,9 +10,6 @@ plugins:
   - jekyll-seo-tag
 
 name: Jason Crabtree's Blog
-meta: Jason Crabtree's Blog
-content: A personal blog about design, technology, people, society and whatever other stuff I'm thinking about.
-
 title: Jason Crabtree's Blog
 description: A personal blog with my thoughts on design, technology, people & society. Customer Operations Operator, Hobbyist Designer, Coffee drinker & overthinker.
 author:
