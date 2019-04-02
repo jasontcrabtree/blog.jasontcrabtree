@@ -1,5 +1,12 @@
-/* Global Styles */
+/* Typography */
 @import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", -apple-system, "Helvetica Neue", sans-serif; }
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter", -apple-system, "Helvetica Neue", sans-serif; } }
+/* Global Styles */
 body,
 li,
 header,
@@ -21,7 +28,7 @@ ul {
 html {
   background-color: var(--navigation-offWhite); }
 
-/* Media Queries */
+/*------- Media Queries -------*/
 /* Mobile phone */
 @media screen and (max-width: 500px) {
   .postListItem {
@@ -115,13 +122,6 @@ html {
 
   h1 {
     font-size: 3.2rem; } }
-/* Typography */
-html {
-  font-family: "Inter", sans-serif; }
-
-@supports (font-variation-settings: normal) {
-  html {
-    font-family: "Inter var", sans-serif; } }
 h1 {
   padding-top: 2rem;
   padding-left: 0;

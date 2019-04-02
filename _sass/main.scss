@@ -1,3 +1,14 @@
+/* Typography */
+@import url("https://rsms.me/inter/inter.css");
+html {
+	font-family: "Inter", -apple-system, "Helvetica Neue", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+	html {
+		font-family: "Inter", -apple-system, "Helvetica Neue", sans-serif;
+	}
+}
+
 /* Global Styles */
 body,
 li,
@@ -12,7 +23,6 @@ ul {
 
 	--body-text: #252525;
 	--primary-orange: #ff5f33;
-	// --primary-blue: #6357ff;
 	--primary-blue: #3c3c9f;
 	--navigation-offWhite: #fcfcfc;
 	--primary-pink: #b55284;
@@ -25,7 +35,7 @@ html {
 	background-color: var(--navigation-offWhite);
 }
 
-/* Media Queries */
+/*------- Media Queries -------*/
 
 /* Mobile phone */
 @media screen and (max-width: 500px) {
@@ -49,7 +59,6 @@ html {
 	}
 
 	.containerMainContent {
-		// display: grid;
 		grid-gap: 8px;
 
 		margin-left: 16px;
@@ -152,17 +161,6 @@ html {
 	}
 }
 
-/* Typography */
-@import url("https://rsms.me/inter/inter.css");
-html {
-	font-family: "Inter", sans-serif;
-}
-@supports (font-variation-settings: normal) {
-	html {
-		font-family: "Inter var", sans-serif;
-	}
-}
-
 h1 {
 	padding-top: 2rem;
 	padding-left: 0;
@@ -215,11 +213,6 @@ strong {
 	color: var(--primary-blue);
 	font-weight: 700;
 }
-
-// .activeBlogPost {
-// 	font-weight: 700;
-// 	border-bottom: 2px var(--body-text) solid;
-// }
 
 .extraBlockQuote {
 	display: grid;
@@ -338,7 +331,6 @@ footer {
 	font-size: 0.9rem;
 	line-height: 140%;
 	color: var(--primary-blue);
-	// padding-top: 32px;
 }
 
 .footerComponent {
@@ -394,9 +386,6 @@ MATERIAL */
 	align-items: center;
 	font-size: 0.9rem;
 	margin: 3rem 0 0 0;
-	// display: block;
-	// width: auto;
-	// overflow: hidden;
 }
 
 .breadCrumbNavigation {
