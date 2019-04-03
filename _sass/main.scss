@@ -1,13 +1,17 @@
+@font-face {
+	font-family: Inter;
+	src: url("https://rsms.me/inter/inter.css");
+	font-display: auto;
+}
+
 /* Typography */
 @import url("https://rsms.me/inter/inter.css");
 html {
-	font-family: "Inter", -apple-system, "Helvetica Neue", sans-serif;
-	font-display: swap;
+	font-family: Inter, -apple-system, "Helvetica Neue", sans-serif;
 }
 @supports (font-variation-settings: normal) {
 	html {
-		font-family: "Inter", -apple-system, "Helvetica Neue", sans-serif;
-		font-display: swap;
+		font-family: Inter, -apple-system, "Helvetica Neue", sans-serif;
 	}
 }
 
