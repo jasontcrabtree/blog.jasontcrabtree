@@ -35,7 +35,6 @@
 			type="application/rss+xml"
 			title="RSS"
 		/>
-		<script src="/assets//script.js"></script>
 		<!-- Begin Jekyll SEO tag v2.5.0 -->
 <title>Jason’s Blog | Jason Crabtree’s Blog</title>
 <meta name="generator" content="Jekyll v3.8.5" />
@@ -73,7 +72,6 @@
 				class="socialIcons fullWordmark"
 			/>
 		</span>
-	</a>
 	<li class="navigationLinks navList">
 		<a href="https://jasontcrabtree.com/projects">
 			Projects
@@ -117,15 +115,17 @@
 	<h1>Latest Posts</h1>
 	<ul>
 		
-		<a href="/Mar/2019/hello-world.html" class="blogPostListLinks">
-			<li class="blogPosts">
+		<li class="blogPosts">
+			<a href="/Mar/2019/hello-world.html" class="blogPostListLinks">
+				<!-- <li class="blogPosts"> -->
 				<h2> Hello World </h2
 				><p class="postPublishDate"
 					>Published 27 March 2019</p
 				>
 				<p>Welcome to the blogzone 👉 come on in...</p>
-			</li>
-		</a>
+				<!-- </li> -->
+			</a>
+		</li>
 		
 	</ul>
 </div>
@@ -174,11 +174,12 @@
 	</div>
 </footer>
 
-
+		<script async defer src="/assets//script.js"></script>
 		<!-- Liquid Code to include analytics if production -->
 		
 		<script
 			async
+			defer
 			src="https://www.googletagmanager.com/gtag/js?id=UA-130258605-2"
 		></script>
 		<script>
@@ -190,7 +191,6 @@
 
 			gtag("config", "UA-130258605-2");
 		</script>
-
 		
 	</body>
 </html>

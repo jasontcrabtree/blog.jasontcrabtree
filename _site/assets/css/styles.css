@@ -1,11 +1,13 @@
 /* Typography */
 @import url("https://rsms.me/inter/inter.css");
 html {
-  font-family: "Inter", -apple-system, "Helvetica Neue", sans-serif; }
+  font-family: "Inter", -apple-system, "Helvetica Neue", sans-serif;
+  font-display: swap; }
 
 @supports (font-variation-settings: normal) {
   html {
-    font-family: "Inter", -apple-system, "Helvetica Neue", sans-serif; } }
+    font-family: "Inter", -apple-system, "Helvetica Neue", sans-serif;
+    font-display: swap; } }
 /* Global Styles */
 body,
 li,

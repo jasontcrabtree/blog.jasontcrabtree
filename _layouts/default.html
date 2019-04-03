@@ -35,7 +35,6 @@
 			type="application/rss+xml"
 			title="RSS"
 		/>
-		<script src="/assets//script.js"></script>
 		{% seo %}
 	</head>
 	<body>
@@ -46,11 +45,12 @@
 		</article>
 
 		{% include footer.html %}
-
+		<script async defer src="/assets//script.js"></script>
 		<!-- Liquid Code to include analytics if production -->
 		{% if jekyll.environment == "production" %}
 		<script
 			async
+			defer
 			src="https://www.googletagmanager.com/gtag/js?id=UA-130258605-2"
 		></script>
 		<script>
@@ -62,7 +62,6 @@
 
 			gtag("config", "UA-130258605-2");
 		</script>
-
 		{% endif %}
 	</body>
 </html>
