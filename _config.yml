@@ -27,6 +27,8 @@ image:
   height: 100
   width: 100
 
+avatar: https://avatars3.githubusercontent.com/u/26457118?s=460&v=4
+
 social:
   name: Jason Crabtree
   links:
@@ -38,6 +40,11 @@ social:
 
 exclude: [archive]
 include: [_redirects]
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
 
 defaults:
   # - scope:
