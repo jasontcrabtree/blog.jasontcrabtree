@@ -4,7 +4,7 @@
 
 environment: production
 
-permalink: //:short_month/:year/:title:output_ext
+# permalink: //:short_month/:year/:title:output_ext
 
 plugins:
   - jekyll-seo-tag
