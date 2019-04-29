@@ -5,7 +5,7 @@ Date: 26 April 2019
 excerpt: A brief review of Slack's Strategic Plans, as told by their recent S-1 document
 ---
 
-Because I'm a total nerd for business software, I just spent the last hour reading [Slack's](https://slack.com) S-1 (document detailed the public sale of their shares) document, which was filled today.
+Because I'm a total nerd for business software, I just spent the last hour reading [Slack's](https://slack.com) S-1 (document detailed the public sale of their shares), which was filled today.
 
 You can access that here: [Slack's S-1 Document](https://www.sec.gov/Archives/edgar/data/1764925/000162828019004786/slacks-1.html)
 
