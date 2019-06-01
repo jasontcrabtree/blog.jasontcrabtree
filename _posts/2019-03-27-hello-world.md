@@ -3,7 +3,7 @@ layout: post
 author: Jason
 Date: 27 Mar 2019
 excerpt: Welcome to the blogzone 👉 come on in...
-image: /assets/Beers-and-Bike2.png/
+image:
 ---
 
 I'm so excited to welcome you to the first blog post published on my own domain.
@@ -14,7 +14,7 @@ I never really participated in the hey-day dominance of blogging. I don't think 
 
 This is a personal blog created in March 2019.
 
-Future blog posts topics will include design, technology and long-form-thoughts on things I find interesting in humanties and society.
+Future blog posts topics will include design, technology and long-form-thoughts on things I find interesting in humanities and society.
 
 **Warning: Future posts WILL be full of em dashes.**
 

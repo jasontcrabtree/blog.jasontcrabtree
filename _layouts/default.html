@@ -6,22 +6,30 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<title>{{ page.title }}</title>
 		<link rel="stylesheet" href="/assets/css/styles.css" />
-		<link rel="shortcut icon" type="image/png" href="favicon.png" />
-		<link rel="shortcut icon" type="image/png" href="/assets/favicon.png" />
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="assets/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="assets/favicon-16x16.png"
+		/>
+
+		<link rel="icon" type="image/png" href="assets/favicon-32x32.png" />
+
 		<meta
 			property="og:image"
 			content="https://blog.jasontcrabtree.com/assets/JC-Blog-Image.png"
 		/>
 		<meta name="twitter:site" content="@jasontcrabtree" />
-		<meta
-			name="twitter:image:alt"
-			content="Overthinker & coffee drinker. A personal blog by Jason Crabtree"
-		/>
+		<meta name="twitter:image:alt" content="{{ page.meta }}" />
 		<meta name="twitter:card" content="summary_large_image" />
-		<meta
-			property="og:image:alt"
-			content="Overthinker & coffee drinker. A personal blog by Jason Crabtree"
-		/>
+		<meta property="og:image:alt" content="{{ page.meta }}" />
 		{% feed_meta %}
 		<link
 			rel="alternate"

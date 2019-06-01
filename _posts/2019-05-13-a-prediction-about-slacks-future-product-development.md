@@ -4,6 +4,7 @@ author: Jason
 Date: 13 May 2019
 excerpt: Writing this down so I can look back in a few years to see if my hunch has paid off — that Slack becomes a full-blown <strong>Business Operating System</strong>
 title: A Prediction about Slack's Future Product Development
+meta: A prediction about Slack's Future Product Roadmap — and an Explanation about why Slack is a Business Operating System
 ---
 
 I’m currently watching Slack’s investor video (it’s excellent!), and I swear they’re describing Slack as a **Business Operating System** — without using those words.

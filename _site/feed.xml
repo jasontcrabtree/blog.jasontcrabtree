@@ -1,4 +1,73 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-05-22T13:40:54+01:00</updated><id>/feed.xml</id><title type="html">Jason Crabtree’s Blog</title><subtitle>A personal blog about design, technology, people &amp; society. Customer Operations Operator, Hobbyist Designer, Coffee drinker &amp; overthinker.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;jasontcrabtree&quot;}</name></author><entry><title type="html">A Prediction about Slack’s Future Product Development</title><link href="/2019/a-prediction-about-slacks-future-product-development.html" rel="alternate" type="text/html" title="A Prediction about Slack's Future Product Development" /><published>2019-05-13T00:00:00+01:00</published><updated>2019-05-13T00:00:00+01:00</updated><id>/2019/a-prediction-about-slacks-future-product-development</id><content type="html" xml:base="/2019/a-prediction-about-slacks-future-product-development.html">&lt;p&gt;I’m currently watching Slack’s investor video (it’s excellent!), and I swear they’re describing Slack as a &lt;strong&gt;Business Operating System&lt;/strong&gt; — without using those words.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-06-01T21:57:13+01:00</updated><id>/feed.xml</id><title type="html">Jason Crabtree’s Blog</title><subtitle>A personal blog about design, technology, people &amp; society. Customer Operations Operator, Hobbyist Designer, Coffee drinker &amp; overthinker.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;jasontcrabtree&quot;}</name></author><entry><title type="html">Small Joys of Learning Code; the CSS Edition</title><link href="/2019/approachable-css-variables.html" rel="alternate" type="text/html" title="Small Joys of Learning Code; the CSS Edition" /><published>2019-05-31T00:00:00+01:00</published><updated>2019-05-31T00:00:00+01:00</updated><id>/2019/approachable-css-variables</id><content type="html" xml:base="/2019/approachable-css-variables.html">&lt;p&gt;One of the most consistently invigorating experiences I’ve had while learning to code is the joy of learning a seemingly small idea, then later learning how you can build on that initial concept in a super cool way.&lt;/p&gt;
+
+&lt;p&gt;The latest instance of this has been with CSS Variables. As a beginner, I always appreciated posts that explained concepts — so now I’m going to do that!&lt;/p&gt;
+
+&lt;h2 id=&quot;the-basic-structure-of-a-webpage&quot;&gt;The Basic Structure of a Webpage&lt;/h2&gt;
+
+&lt;p&gt;Imagine a basic website with pictures and words. &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML&quot;&gt;HTML&lt;/a&gt; (&lt;em&gt;&lt;strong&gt;Hypertext Markup Language&lt;/strong&gt;&lt;/em&gt;) is the coding language that creates the websites layout and underlying content. &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/css&quot;&gt;CSS&lt;/a&gt; (&lt;em&gt;&lt;strong&gt;Cascading Style Sheets&lt;/strong&gt;&lt;/em&gt;) is the coding language used to add styles to the original HTML code. It’s a relatively controversial coding language, full of debates about whether it’s even a real programming language. Personally, I love it because it’s incredibly literal. Do you want to change something’s colour? Type &lt;code class=&quot;highlighter-rouge&quot;&gt;background-color: red&lt;/code&gt;. Or maybe you want to change the size of a font? &lt;code class=&quot;highlighter-rouge&quot;&gt;font-size: 40px&lt;/code&gt; will do the trick.&lt;/p&gt;
+
+&lt;p&gt;HTML without CSS looks the same regardless of content — for Google, Twitter or this blog. CSS is (part of) what differentiates the design, style and brand of websites and products.&lt;/p&gt;
+
+&lt;h2 id=&quot;heres-an-example-of-a-basic-webpage-without-css&quot;&gt;Here’s an Example of A Basic Webpage Without CSS:&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://res.cloudinary.com/jasontcrabtree/image/upload/v1559324406/Screenshot_2019-05-31_at_18.39.26.png&quot; alt=&quot;A Basic HTML Website with no CSS Styling&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;CSS Variables take things to a whole new level. CSS Variables store CSS values in keywords that can later be re-used as many times as you need. CSS Variables follow the same structure you might have learnt about in High School Algebra. I definitely failed High School algebra, potentially contributing to me being slow to pick up CSS Variables, but regardless — similar to Algebra, CSS Variables are assigned by associating a value with the variable name. For example, if we have a math problem such as Z = XY and we know that two of the values are X = 10, and Y = 5, then we can calculate Z as the result of X * Y. Luckily, there’s less math involved in CSS Variables than that, but the general principle of storing a value is the same.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;CSS Variables store CSS values in keywords that can later be re-used as many times as you need.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For example, if I had a particular colour that I wanted to use multiple times in the future, I could set that colour as a variable.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Setting a CSS variable:&lt;/strong&gt;
+(I don’t know why the blue hex code is red, I promise it’s blue!)&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/jasontcrabtree/2ce934513ce317cf97de22f0de8aba34.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Once we apply these styles, our website now looks like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://res.cloudinary.com/jasontcrabtree/image/upload/v1559326204/Screenshot_2019-05-31_at_19.03.35.png&quot; alt=&quot;Adding some basic CSS using our CSS colour variable&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This concept of using the same variable, again and again as needed has been very compelling and is a technique I’ve started trying to use on every project. I was probably a bit slow to the Variables party (because of the previously discussed algebra issues). That aside, once I understood how it works, I’ve become a huge fan. &lt;strong&gt;Mostly because it just makes sense.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;area-man-discovers-computers-capable-of-math-news-at-6-sarcasm-disclaimer&quot;&gt;Area-Man Discovers Computers Capable of Math, News at 6 (&lt;em&gt;Sarcasm Disclaimer&lt;/em&gt;)&lt;/h2&gt;
+
+&lt;p&gt;Today’s revelation, however, &lt;strong&gt;&lt;em&gt;(dramatic music)&lt;/em&gt;&lt;/strong&gt; changes everything. While thinking about my favourite design methodology (&lt;a href=&quot;https://spec.fm/specifics/8-pt-grid&quot;&gt;the 8-px grid&lt;/a&gt;), which uses multiples of 8 for spacing and layout decisions, and once again wishing I had memorised my maths times-tables all those years ago, it occurred to me — hang on. If you can set colour Variables, what else can you set?&lt;/p&gt;
+
+&lt;p&gt;And that moment is how I realised computers could do the math for me. I can set numbers to Variables. Now, all of my x8 times-tables math problems have been solved.&lt;/p&gt;
+
+&lt;p&gt;Using CSS Variables I can set the a few relevant spacing Variables, then re-use those values as I need throughout a design. This builds consistency directly into the design — and ensures a smooth transition if sizes need to be tweaked later on. It also means I can much more easily use &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/calc&quot;&gt;CSS calc()&lt;/a&gt; to calculate values on the fly from base Variables.&lt;/p&gt;
+
+&lt;h3 id=&quot;setting-size-variables&quot;&gt;Setting Size Variables&lt;/h3&gt;
+
+&lt;script src=&quot;https://gist.github.com/jasontcrabtree/027b7a17ceb2ac650c10be22fca8b3b2.js&quot;&gt;&lt;/script&gt;
+
+&lt;h3 id=&quot;lastly-lets-apply-our-layout-styles-and-add-a-nice-font&quot;&gt;Lastly, Let’s Apply our Layout Styles (and add a nice font!)&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://res.cloudinary.com/jasontcrabtree/image/upload/v1559413225/Screenshot_2019-06-01_at_19.19.02.png&quot; alt=&quot;Using A Few CSS Variables to Layout our Page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;With that, we’re left with something closely resembling a real website. We’ve used a single colour (that we can change easily, just by changing the initial variable) and we’ve got consistent spacing throughout the page.&lt;/p&gt;
+
+&lt;p&gt;Admittedly, while typing this out it DOES feel like I should have known all of this from the start, but it’s tough to see what you don’t know. But, I know now — and that’s fricking cool and all that matters. Plus, now you know too! Mostly, I’m excited to see what else I can do with CSS Variables in the future.&lt;/p&gt;
+
+&lt;h3 id=&quot;github-links-from-this-article&quot;&gt;GitHub Links from this Article:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jasontcrabtree.github.io/approachable-css-variables/&quot;&gt;The Example Website used in this Article&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jasontcrabtree/approachable-css-variables&quot;&gt;Website Example GitHub Source Code&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gist.github.com/jasontcrabtree/2ce934513ce317cf97de22f0de8aba34&quot;&gt;Gist 1: Setting up Basic Colour CSS Variables&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gist.github.com/jasontcrabtree/027b7a17ceb2ac650c10be22fca8b3b2&quot;&gt;Gist 2: Defining Size CSS Variables&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;now-a-few-additional-resources-for-those-brave-adventurers-who-want-to-learn-more&quot;&gt;Now, a few additional resources for those brave adventurers who want to learn more:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties#Basic_usage&quot;&gt;Mozilla: CSS Variables Basic Usage&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.smashingmagazine.com/2018/05/css-custom-properties-strategy-guide/&quot;&gt;Smashing Magazine: A Strategy Guide To CSS Custom Properties&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://css-tricks.com/making-custom-properties-css-variables-dynamic/&quot;&gt;CSS Tricks: Making Custom Properties (CSS Variables) More Dynamic&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://spec.fm/specifics/8-pt-grid&quot;&gt;The 8-Point Grid&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Jason</name></author><summary type="html">An approachable, beginners friendly introduction to designing websites using CSS Variables. No experience with code necessary!</summary></entry><entry><title type="html">A Prediction about Slack’s Future Product Development</title><link href="/2019/a-prediction-about-slacks-future-product-development.html" rel="alternate" type="text/html" title="A Prediction about Slack's Future Product Development" /><published>2019-05-13T00:00:00+01:00</published><updated>2019-05-13T00:00:00+01:00</updated><id>/2019/a-prediction-about-slacks-future-product-development</id><content type="html" xml:base="/2019/a-prediction-about-slacks-future-product-development.html">&lt;p&gt;I’m currently watching Slack’s investor video (it’s excellent!), and I swear they’re describing Slack as a &lt;strong&gt;Business Operating System&lt;/strong&gt; — without using those words.&lt;/p&gt;
 
 &lt;p&gt;Video found here: &lt;a href=&quot;https://investor.slackhq.com/home/default.aspx&quot;&gt;Slack’s Investor Video&lt;/a&gt;&lt;/p&gt;
 
@@ -56,10 +125,10 @@ The document itself is fascinating — if you’re that way inclined I’d defin
 
 &lt;p&gt;This is a personal blog created in March 2019.&lt;/p&gt;
 
-&lt;p&gt;Future blog posts topics will include design, technology and long-form-thoughts on things I find interesting in humanties and society.&lt;/p&gt;
+&lt;p&gt;Future blog posts topics will include design, technology and long-form-thoughts on things I find interesting in humanities and society.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Warning: Future posts WILL be full of em dashes.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;If you’d like to come along for the ride, I’d love it if you subscribed to my RSS feed or followed me on Twitter.&lt;/p&gt;
 
-&lt;p&gt;Thanks for visiting!&lt;/p&gt;</content><author><name>Jason</name></author><summary type="html">Welcome to the blogzone 👉 come on in...</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/Beers-and-Bike2.png/" /></entry></feed>
+&lt;p&gt;Thanks for visiting!&lt;/p&gt;</content><author><name>Jason</name></author><summary type="html">Welcome to the blogzone 👉 come on in...</summary></entry></feed>
