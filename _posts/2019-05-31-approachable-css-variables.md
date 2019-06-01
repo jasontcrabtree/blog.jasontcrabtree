@@ -2,9 +2,9 @@
 layout: post
 author: Jason
 Date: 1 June 2019
-excerpt: An approachable, beginners friendly introduction to designing websites using CSS Variables. No experience with code necessary!
+excerpt: An approachable, beginner friendly introduction to designing websites using CSS Variables. No experience with code necessary!
 title: Small Joys of Learning Code; the CSS Edition
-meta: An approachable, beginners friendly introduction to designing websites using CSS Variables. No experience with code necessary!
+meta: An approachable, beginner friendly introduction to designing websites using CSS Variables. No experience with code necessary!
 ---
 
 One of the most consistently invigorating experiences I've had while learning to code is the joy of learning a seemingly small idea, then later learning how you can build on that initial concept in a super cool way.
