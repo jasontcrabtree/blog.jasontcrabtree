@@ -47,6 +47,11 @@
 		</article>
 
 		{% include footer.html %}
+
+		<script src="/assets//yall.min.js"></script>
+		<script>
+			document.addEventListener("DOMContentLoaded", yall);
+		</script>
 		<script async defer src="/assets//script.js"></script>
 		<!-- Liquid Code to include analytics if production -->
 		{% if jekyll.environment == "production" %}

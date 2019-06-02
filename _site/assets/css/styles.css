@@ -393,3 +393,6 @@ blockquote > p {
   padding-right: 16px;
   max-width: 48ch;
   width: auto; }
+
+.cs-image {
+  width: 100%; }
