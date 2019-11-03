@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-06-02T14:52:57+01:00</updated><id>/feed.xml</id><title type="html">Jason Crabtree’s Blog</title><subtitle>A personal blog about design, technology, people &amp; society. Customer Operations Operator, Hobbyist Designer, Coffee drinker &amp; overthinker.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;jasontcrabtree&quot;}</name></author><entry><title type="html">Small Joys of Learning Code; the CSS Edition</title><link href="/2019/approachable-css-variables.html" rel="alternate" type="text/html" title="Small Joys of Learning Code; the CSS Edition" /><published>2019-05-31T00:00:00+01:00</published><updated>2019-05-31T00:00:00+01:00</updated><id>/2019/approachable-css-variables</id><content type="html" xml:base="/2019/approachable-css-variables.html">&lt;p&gt;One of the most consistently invigorating experiences I’ve had while learning to code is the joy of learning a seemingly small idea, then later learning how you can build on that initial concept in a super cool way.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-11-03T20:14:09+00:00</updated><id>/feed.xml</id><title type="html">Jason Crabtree’s Blog</title><subtitle>A personal blog about design, technology, people &amp; society. Customer Operations Operator, Hobbyist Designer, Coffee drinker &amp; overthinker.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;jasontcrabtree&quot;}</name></author><entry><title type="html">Small Joys of Learning Code; the CSS Edition</title><link href="/2019/approachable-css-variables.html" rel="alternate" type="text/html" title="Small Joys of Learning Code; the CSS Edition" /><published>2019-05-31T00:00:00+01:00</published><updated>2019-05-31T00:00:00+01:00</updated><id>/2019/approachable-css-variables</id><content type="html" xml:base="/2019/approachable-css-variables.html">&lt;p&gt;One of the most consistently invigorating experiences I’ve had while learning to code is the joy of learning a seemingly small idea, then later learning how you can build on that initial concept in a super cool way.&lt;/p&gt;
 
 &lt;p&gt;The latest instance of this has been with CSS Variables. As a beginner, I always appreciated posts that explained concepts — so now I’m going to do that!&lt;/p&gt;
 
@@ -10,7 +10,7 @@
 
 &lt;h2 id=&quot;heres-an-example-of-a-basic-webpage-without-css&quot;&gt;Here’s an Example of A Basic Webpage Without CSS:&lt;/h2&gt;
 
-&lt;p&gt;&lt;img class=&quot;cs-image lazy&quot; src=&quot;/assets/placeholder.svg&quot; data-src=&quot;https://res.cloudinary.com/jasontcrabtree/image/upload/v1559324406/Screenshot_2019-05-31_at_18.39.26.png&quot; alt=&quot;A Basic HTML Website with no CSS Styling&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;cs-image lazy&quot; src=&quot;/assets/placeholder.svg&quot; data-src=&quot;https://res.cloudinary.com/jasontcrabtree/image/upload/v1559324406/CSS-Variables-Case-Study/html-no-css.png&quot; alt=&quot;A Basic HTML Website with no CSS Styling&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;CSS Variables take things to a whole new level. CSS Variables store CSS values in keywords that can later be re-used as many times as you need. CSS Variables follow the same structure you might have learnt about in High School Algebra. I definitely failed High School algebra, potentially contributing to me being slow to pick up CSS Variables, but regardless — similar to Algebra, CSS Variables are assigned by associating a value with the variable name. For example, if we have a math problem such as Z = XY and we know that two of the values are X = 10, and Y = 5, then we can calculate Z as the result of X * Y. Luckily, there’s less math involved in CSS Variables than that, but the general principle of storing a value is the same.&lt;/p&gt;
 
@@ -27,7 +27,7 @@
 
 &lt;p&gt;Once we apply these styles, our website now looks like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;cs-image lazy&quot; src=&quot;/assets/placeholder.svg&quot; data-src=&quot;https://res.cloudinary.com/jasontcrabtree/image/upload/v1559324406/Screenshot_2019-05-31_at_18.39.26.png&quot; alt=&quot;Adding some basic CSS using our CSS colour variable&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;cs-image lazy&quot; src=&quot;/assets/placeholder.svg&quot; data-src=&quot;https://res.cloudinary.com/jasontcrabtree/image/upload/v1559326204/CSS-Variables-Case-Study/adding-css-colors.png&quot; alt=&quot;Adding some basic CSS using our CSS colour variable&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This concept of using the same variable, again and again as needed has been very compelling and is a technique I’ve started trying to use on every project. I was probably a bit slow to the Variables party (because of the previously discussed algebra issues). That aside, once I understood how it works, I’ve become a huge fan. &lt;strong&gt;Mostly because it just makes sense.&lt;/strong&gt;&lt;/p&gt;
 
@@ -45,7 +45,7 @@
 
 &lt;h3 id=&quot;lastly-lets-apply-our-layout-styles-and-add-a-nice-font&quot;&gt;Lastly, Let’s Apply our Layout Styles (and add a nice font!)&lt;/h3&gt;
 
-&lt;p&gt;&lt;img class=&quot;cs-image lazy&quot; src=&quot;/assets/placeholder.svg&quot; data-src=&quot;https://res.cloudinary.com/jasontcrabtree/image/upload/v1559413225/Screenshot_2019-06-01_at_19.19.02.png&quot; alt=&quot;Using A Few CSS Variables to Layout our Page&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;cs-image lazy&quot; src=&quot;/assets/placeholder.svg&quot; data-src=&quot;https://res.cloudinary.com/jasontcrabtree/image/upload/v1559412874/CSS-Variables-Case-Study/Screenshot_2019-06-01_at_19.14.08.png&quot; alt=&quot;Using A Few CSS Variables to Layout our Page&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;With that, we’re left with something closely resembling a real website. We’ve used a single colour (that we can change easily, just by changing the initial variable) and we’ve got consistent spacing throughout the page.&lt;/p&gt;
 

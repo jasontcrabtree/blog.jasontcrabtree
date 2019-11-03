@@ -22,7 +22,7 @@ HTML without CSS looks the same regardless of content — for Google, Twitter or
 <img
     class="cs-image lazy"
     src="/assets/placeholder.svg"
-    data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1559324406/Screenshot_2019-05-31_at_18.39.26.png"
+    data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1559324406/CSS-Variables-Case-Study/html-no-css.png"
     alt="A Basic HTML Website with no CSS Styling"
 />
 
@@ -42,7 +42,7 @@ Once we apply these styles, our website now looks like this:
 <img
     class="cs-image lazy"
     src="/assets/placeholder.svg"
-    data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1559324406/Screenshot_2019-05-31_at_18.39.26.png"
+    data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1559326204/CSS-Variables-Case-Study/adding-css-colors.png"
     alt="Adding some basic CSS using our CSS colour variable"
 />
 
@@ -65,7 +65,7 @@ Using CSS Variables I can set the a few relevant spacing Variables, then re-use 
 <img
     class="cs-image lazy"
     src="/assets/placeholder.svg"
-    data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1559413225/Screenshot_2019-06-01_at_19.19.02.png"
+    data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1559412874/CSS-Variables-Case-Study/Screenshot_2019-06-01_at_19.14.08.png"
     alt="Using A Few CSS Variables to Layout our Page"
 />
 
