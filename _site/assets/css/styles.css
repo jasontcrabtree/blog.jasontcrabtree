@@ -18,20 +18,20 @@ html {
   --light-blue-grey: #e3eef1; }
 
 /* Light mode */
-@media (prefers-color-scheme: light) {
-  html {
-    background: var(--navigation-offWhite);
-    color: var(--body-text); }
+html {
+  background: var(--navigation-offWhite);
+  color: var(--body-text); }
 
-  .blogPosts:hover,
-  .blogPosts:active,
-  .blogPosts:visited {
-    background-color: #fcfcfc;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25); }
+.blogPosts:hover,
+.blogPosts:active,
+.blogPosts:visited {
+  background-color: #fcfcfc;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25); }
 
-  .navigationContainer {
-    background: #f1f1f9;
-    box-shadow: 0px 4px 4px rgba(204, 204, 204, 0.9); } }
+.navigationContainer {
+  background: #f1f1f9;
+  box-shadow: 0px 4px 4px rgba(204, 204, 204, 0.9); }
+
 /* Dark mode */
 /* Global Styles */
 body,

@@ -65,7 +65,7 @@ Using CSS Variables I can set the a few relevant spacing Variables, then re-use 
 <img
     class="cs-image lazy"
     src="/assets/placeholder.svg"
-    data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1559412874/CSS-Variables-Case-Study/Screenshot_2019-06-01_at_19.14.08.png"
+    data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1559413225/CSS-Variables-Case-Study/final-layout-and-styles.png"
     alt="Using A Few CSS Variables to Layout our Page"
 />
 
