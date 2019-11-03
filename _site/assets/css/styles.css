@@ -226,7 +226,8 @@ a:active,
 
 /* mouse over Navigation link */
 a:hover {
-  color: var(--primary-orange);
+  color: var(--primary-blue);
+  text-decoration: underline;
   cursor: pointer; }
 
 /* selected Navigation link */
