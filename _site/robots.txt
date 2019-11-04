@@ -1,1 +1,1 @@
-Sitemap: /blog.jasontcrabtree.com/sitemap.xml
+Sitemap: /sitemap.xml
