@@ -4,7 +4,9 @@
 
 environment: production
 
-permalink: //:year/:title:output_ext
+# permalink: //:year/:title:output_ext
+
+permalink: /:year/:title:output_ext
 
 
 

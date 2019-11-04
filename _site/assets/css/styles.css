@@ -166,6 +166,15 @@ h1 {
   font-weight: 900;
   margin-block-start: 0; }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  color: var(--body-text); }
+
 h3,
 h2 {
   margin-top: 56px;
