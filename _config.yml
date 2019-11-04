@@ -6,7 +6,7 @@ environment: production
 
 permalink: //:year/:title:output_ext
 
-baseurl:
+baseurl: blog.jasontcrabtree.com
 
 plugins:
   - jekyll-seo-tag
