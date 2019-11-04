@@ -8,7 +8,8 @@ environment: production
 
 permalink: /:year/:title:output_ext
 
-
+url: 'https://blog.jasontcrabtree.com'
+baseurl: ''
 
 plugins:
   - jekyll-seo-tag
