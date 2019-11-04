@@ -6,6 +6,8 @@ environment: production
 
 permalink: //:year/:title:output_ext
 
+baseurl:
+
 plugins:
   - jekyll-seo-tag
 
