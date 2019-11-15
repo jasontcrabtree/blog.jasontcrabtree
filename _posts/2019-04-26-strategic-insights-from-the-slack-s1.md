@@ -3,7 +3,7 @@ layout: post
 author: Jason
 Date: 26 April 2019
 excerpt: A brief review of Slack's Strategic Plans, as told by their recent S-1 document
-title: strategic-insights-from-the-slack-s1
+title: Strategic Insights from the Slack S1
 meta: A brief day-of-release review of Slack's Strategic Plans, as told by their recent S-1 document.
 ---
 
