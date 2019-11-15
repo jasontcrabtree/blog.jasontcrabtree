@@ -4,7 +4,7 @@ author: Jason
 Date: 27 Mar 2019
 excerpt: Welcome to the blogzone 👉 come on in...
 title: hello-world
-image:
+image: /assets/JC-Blog-Image.png
 ---
 
 I'm so excited to welcome you to the first blog post published on my own domain.
