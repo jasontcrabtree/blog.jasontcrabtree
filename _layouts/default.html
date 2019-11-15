@@ -1,74 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<title>{{ page.title }}</title>
-		<link rel="stylesheet" href="/assets/css/styles.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css" />
 
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="32x32"
-			href="/assets/favicon-32x32.png"
-		/>
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="16x16"
-			href="/assets/favicon-16x16.png"
-		/>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/favicon-16x16.png"
+    />
 
-		<link rel="icon" type="image/png" href="/assets/favicon-32x32.png" />
+    <link rel="icon" type="image/png" href="/assets/favicon-32x32.png" />
 
-		<meta
-			property="og:image"
-			content="https://blog.jasontcrabtree.com/assets/JC-Blog-Image.png"
-		/>
-		<meta name="twitter:site" content="@jasontcrabtree" />
-		<meta name="twitter:image:alt" content="{{ page.meta }}" />
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta property="og:image:alt" content="{{ page.meta }}" />
-		{% feed_meta %}
-		<link
-			rel="alternate"
-			href="/_site/feed.xml"
-			type="application/rss+xml"
-			title="RSS"
-		/>
-		{% seo %}
-	</head>
-	<body>
-		{% include navigation.html %}
+    <meta
+      property="og:image"
+      content="https://blog.jasontcrabtree.com/assets/JC-Blog-Image.png"
+    />
+    <meta name="twitter:site" content="@jasontcrabtree" />
+    <meta name="twitter:image:alt" content="{{ page.meta }}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:image:alt" content="{{ page.meta }}" />
+    {% feed_meta %}
+    <link
+      rel="alternate"
+      href="/_site/feed.xml"
+      type="application/rss+xml"
+      title="RSS"
+    />
+    {% seo %}
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  </head>
+  <body>
+    {% include navigation.html %}
 
-		<article class="containerMainContent">
-			{{ content }}
-		</article>
+    <article class="containerMainContent">
+      {{ content }}
+    </article>
 
-		{% include footer.html %}
+    {% include footer.html %}
 
-		<script src="/assets//yall.min.js"></script>
-		<script>
-			document.addEventListener("DOMContentLoaded", yall);
-		</script>
-		<script async defer src="/assets//script.js"></script>
-		<!-- Liquid Code to include analytics if production -->
-		{% if jekyll.environment == "production" %}
-		<script
-			async
-			defer
-			src="https://www.googletagmanager.com/gtag/js?id=UA-130258605-2"
-		></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag("js", new Date());
+    <script src="/assets//yall.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", yall);
+    </script>
+    <script async defer src="/assets//script.js"></script>
+    <!-- Liquid Code to include analytics if production -->
+    {% if jekyll.environment == "production" %}
+    <script
+      async
+      defer
+      src="https://www.googletagmanager.com/gtag/js?id=UA-130258605-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-			gtag("config", "UA-130258605-2");
-		</script>
-		{% endif %}
-	</body>
+      gtag("config", "UA-130258605-2");
+    </script>
+    {% endif %}
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+  </body>
 </html>

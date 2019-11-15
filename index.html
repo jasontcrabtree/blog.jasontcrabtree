@@ -5,28 +5,28 @@ meta: Overthinker & coffee drinker. A personal blog by Jason Crabtree
 ---
 
 <div class="mainArticleLayout">
-	<h1>Latest Posts</h1>
-	<p>
-		A personal & professional blog by
-		<a href="https://twitter.com/jasontcrabtree">Jason Crabtree</a>. Common
-		topics include Design, Product Strategy, Front-end Development and misc
-		long-form-thoughts on things I find interesting in humanities and society.
-	</p>
-	<ul class="ul-posts-list">
-		{% for post in site.posts %}
-		<li class="blogPosts">
-			<a href="{{ post.url }}" class="blogPostListLinks">
-				<!-- <li class="blogPosts"> -->
-				<h2> {{ post.title }} </h2>
-				<p class="postPublishDate">
-					Published {{ post.date | date_to_long_string }}
-				</p>
-				<p>
-					{{ post.excerpt }}
-				</p>
-				<!-- </li> -->
-			</a>
-		</li>
-		{% endfor %}
-	</ul>
+  <h1>Latest Posts</h1>
+  <p>
+    A personal & professional blog by
+    <a href="https://twitter.com/jasontcrabtree">Jason Crabtree</a>. Common
+    topics include Design, Product Strategy, Front-end Development and misc
+    long-form-thoughts on things I find interesting in humanities and society.
+  </p>
+  <ul class="ul-posts-list">
+    {% for post in site.posts %}
+    <li class="blogPosts">
+      <a href="{{ post.url }}" class="blogPostListLinks">
+        <!-- <li class="blogPosts"> -->
+        <h2>{{ post.title }}</h2>
+        <p class="postPublishDate">
+          Published {{ post.date | date_to_long_string }}
+        </p>
+        <p>
+          {{ post.excerpt }}
+        </p>
+        <!-- </li> -->
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
 </div>
