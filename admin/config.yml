@@ -5,9 +5,9 @@ backend:
     - editor
 publish_mode: editorial_workflow
 site_url: "https://blog.jasontcrabtree.com"
-display_url: "https://your-site.com"
+display_url: "https://blog.jasontcrabtree.com"
 logo_url: "https://blog.jasontcrabtree.com/assets/favicon-32x32.png"
-media_folder: assets/uploads
+media_folder: assets/
 collections:
   - name: blog
     label: Blog
