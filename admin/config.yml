@@ -1,12 +1,20 @@
-# config.yml
-
 backend:
-  name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
-media_folder: "assets/uploads"
+  name: "git-gateway\naccept_roles:"
+publish_mode: editorial_workflow
+site_url: "https://blog.jasontcrabtree.com"
+display_url: "https://your-site.com"
+logo_url: "https://blog.jasontcrabtree.com/assets/favicon-32x32.png"
+media_folder: assets/uploads
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "_posts/"
+  - name: blog
+    label: Blog
+    folder: _posts/
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: true
     fields:
-      - { name: Title }
+      - { label: Layout, name: layout, widget: hidden, default: post }
+      - { label: Title, name: title, widget: string }
+      - { label: "Publish Date", name: date, widget: datetime }
+      - { label: Body, name: body, widget: markdown }
