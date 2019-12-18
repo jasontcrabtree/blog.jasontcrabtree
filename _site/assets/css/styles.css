@@ -1,7 +1,6 @@
 :root {
-  font-size: 1.25rem;
-  line-height: 1.5;
-  color: #292929; }
+  font-size: 20px;
+  line-height: 1.5; }
 
 html {
   font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -21,13 +20,12 @@ p {
   padding-inline-start: 0px; }
 
 p {
-  padding-bottom: 16px; }
+  padding-bottom: 0.8rem; }
 
 a:link,
 a:visited,
 a:active,
 .initialsText {
-  color: #171717;
   text-decoration: underline;
   font-weight: bold; }
 
@@ -36,40 +34,32 @@ a:hover {
   text-decoration: underline;
   cursor: pointer; }
 
-footer {
-  padding: 6rem 32% 6rem calc(16% + 16px);
-  text-align: left;
-  font-size: 1rem;
-  line-height: 200%;
-  background: #f1f1f1;
-  bottom: 0px;
-  left: 0;
-  bottom: 0; }
-
 footer a:link,
 footer a:visited,
 footer a:active {
   text-decoration: none; }
+
+footer {
+  text-align: left;
+  font-size: 1rem;
+  line-height: 200%;
+  bottom: 0px;
+  left: 0;
+  bottom: 0; }
 
 .nav-item--style,
 .nav-item-list--style {
   text-decoration: none;
   list-style: none; }
 
-.navigation-container--layout {
-  padding: 1.5rem 32% 1.5rem calc(16% + 32px); }
-
-.main-page-container--layout {
-  margin: 3rem 32% 6rem 16%;
-  padding-left: 16px;
-  width: 48ch;
-  max-width: 40rem; }
-
+/*
+Blog post card
+*/
 .ul-posts-list > li > a > p {
   padding-bottom: 0px; }
 
 .ul-posts-list * {
-  margin: 16px 0px; }
+  margin: 0.8rem 0px; }
 
 .blogPosts > .blogPostListLinks {
   text-decoration: none;
@@ -84,33 +74,128 @@ footer a:active {
   margin-top: 0.25rem;
   flex-shrink: 0;
   /* Scale the icon to match the font-size. */
-  height: 20px;
+  height: 1rem;
   border-radius: 50%; }
 
 .cs-image {
   width: 100%; }
 
 .socialIcons {
-  margin-right: 16px; }
+  margin-right: 0.8rem; }
 
 .footer-social-list--layout {
   display: inline-flex;
   list-style: none; }
 
 .index-header--layout {
-  padding: 16px; }
+  padding: 0.8rem; }
 
 .blogPosts {
-  margin: 48px auto;
   list-style: none;
-  padding-left: 16px;
-  border: 1px solid #f1f1f1;
-  background: #f1f1f1; }
-
-.navigation-container--layout {
-  background: #f1f1f1; }
+  padding-left: 0.8rem; }
 
 /*------- Media Queries -------*/
 /* Mobile phone */
+@media screen and (max-width: 700px) {
+  :root {
+    font-size: 1.1rem; }
+
+  .navigation-container--layout {
+    padding: 1rem 2rem;
+    margin: 0px 0px; }
+
+  .main-page-container--layout {
+    padding: 1rem 2.5rem 1rem 1.5rem;
+    margin: 0px auto; }
+
+  .blogPosts {
+    margin: 1.5rem 0px;
+    padding: 0.8rem;
+    width: fit-content;
+    max-width: auto; }
+
+  footer {
+    padding: 1rem;
+    margin: 0px; }
+
+  h1 {
+    font-size: 1.75rem; }
+
+  h2 {
+    font-size: 1.25rem; } }
 /* Mobile phone & upto 1200px (med size screens) */
+@media screen and (min-width: 701px) and (max-width: 1200px) {
+  footer {
+    padding: 6rem 32% 4rem calc(16% + 1.6rem); }
+
+  .blogPosts {
+    margin: 2.4rem auto; }
+
+  .navigation-container--layout {
+    padding: 1.5rem 32% 1.5rem calc(16% + 1.6rem); }
+
+  .main-page-container--layout {
+    margin: 3rem 32% 4rem 16%;
+    padding-left: 0.8rem;
+    width: 36ch;
+    max-width: 80%; } }
 /* Screens bigger than 1201px */
+@media screen and (min-width: 1200px) {
+  footer {
+    padding: 6rem 32% 6rem calc(16% + 1.6rem); }
+
+  .blogPosts {
+    margin: 2.4rem auto; }
+
+  .navigation-container--layout {
+    padding: 1.5rem 32% 1.5rem calc(16% + 1.6rem); }
+
+  .main-page-container--layout {
+    margin: 3rem 32% 6rem 16%;
+    padding-left: 0.8rem;
+    width: 48ch;
+    max-width: 40rem; } }
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #292929; }
+
+  html {
+    background: #ffffff; }
+
+  a:link,
+  a:visited,
+  a:active,
+  .initialsText {
+    color: #171717; }
+
+  footer {
+    background: #f1f1f1; }
+
+  .blogPosts {
+    border: 1px solid #f1f1f1;
+    background: #f1f1f1; }
+
+  .navigation-container--layout {
+    background: #66dad4; } }
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #f1f1f1; }
+
+  html {
+    background: #292929; }
+
+  a:link,
+  a:visited,
+  a:active,
+  .initialsText {
+    color: #f1f1f1; }
+
+  footer {
+    background: #171717; }
+
+  .blogPosts {
+    border: 1px solid #171717;
+    background: #171717; }
+
+  .navigation-container--layout {
+    background: #254e4c; } }
