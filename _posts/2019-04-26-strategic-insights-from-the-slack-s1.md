@@ -20,7 +20,7 @@ Under the heading **Customer-centricity is the fundamental tenet of our company*
 
 From a strategic perspective, the **Growth Strategy** heading is a goldmine. I think it's worth emphasising both the bullet points they've used and the order they're listed as showing deep insight into Slack's strategic priorities.
 
-### Interpreting the growth pillars they discuss, this is how Slack view their growth plan:
+<u>Interpreting the growth pillars they discuss, this is how Slack view their growth plan:</u>
 
 - Improve the Slack product
 - Focus on sales

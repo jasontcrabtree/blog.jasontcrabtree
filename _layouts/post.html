@@ -2,41 +2,39 @@
 layout: default
 ---
 
-<div class="main-page-container--layout">
-  {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+<div class="mainArticleLayout">
+	{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
 
-  <a href="/">
-    <span class="breadCrumbNavigation">
-      Home</a>
-	</span>
+	<a href="/">
+		 <span class="breadCrumbNavigation"> Home</a> </span>
+	    	/ {{ page.title }}
 
-    / {{ page.title }}
 
-    <h1>{{ page.title }}</h1>
+		<h1>{{ page.title }}</h1>
 
-    <article>
-      <span class="postPublishDate"
-        >{{ page.date | date_to_long_string: "ordinal" }}</span
-      >
-      {% assign author = site.authors | where: 'short_name', page.author | first
-      %} {% if author %} - <a href="{{ author.url }}">{{ author.name }}</a>
-      {% endif %}
-    </article>
+		<article>
+			<span class="postPublishDate">{{
+				page.date | date_to_long_string: "ordinal"
+			}}</span>
+			{% assign author = site.authors | where: 'short_name', page.author | first
+			%} {% if author %} - <a href="{{ author.url }}">{{ author.name }}</a>
+			{% endif %}
+		</article>
 
-    {{ content }}
+		{{ content }}
 
-    <div class="PageNavigation parent">
-      {% if page.previous.url %}
-      <a class="prev child" href="{{ page.previous.url }}"
-        >&laquo; <span class="breadCrumbNavigation">Previous Posts: </span>{{
-        page.previous.title }}</a
-      >
-      {% endif %} {% if page.next.url %}
-      <a class="next child" href="{{ page.next.url }}">
-        <span class="breadCrumbNavigation">Latest Posts:</span>
-        {{ page.next.title }} &raquo;</a
-      >
-      {% endif %}
-    </div>
-  </a>
+		<div class="PageNavigation">
+			{% if page.previous.url %}
+			<a class="prev" href="{{ page.previous.url }}"
+				>&laquo; <span class="breadCrumbNavigation">Previous Posts: </span
+				>{{ page.previous.title }}</a
+			>
+			{% endif %} {% if page.next.url %}
+			<a class="next" href="{{ page.next.url }}">
+				<span class="breadCrumbNavigation">Latest Posts:</span>
+				{{ page.next.title }} &raquo;</a
+			>
+			{% endif %}
+		</div>
+	</a>
 </div>
