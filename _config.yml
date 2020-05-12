@@ -44,6 +44,7 @@ social:
     - https://github.com/jasontcrabtree
 
 exclude: [archive]
+include: [_redirects-404]
 include: [_redirects]
 
 exclude:
